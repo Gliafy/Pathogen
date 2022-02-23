@@ -15,6 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
 
             Debug.Log("Yes");
             Destroy(collision.gameObject);
+            
         }
 
     }       
