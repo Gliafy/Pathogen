@@ -21,7 +21,8 @@ public class Test2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             this.GetComponent<PlayerMovement>().enabled = true;
-            Destroy(transform.GetChild(0).gameObject);
+            Destroy(transform.GetChild(0).gameObject); 
+            Destroy(transform.GetChild(1).gameObject);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
